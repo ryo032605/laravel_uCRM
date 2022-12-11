@@ -11,7 +11,7 @@ const form = reactive({
  content: null 
 }) 
 const submitFunction = () => { 
- Inertia.get('/inertia', form) 
+ Inertia.post('/inertia', form) 
 }
 </script>
 <template>
